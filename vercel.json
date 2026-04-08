@@ -1,0 +1,13 @@
+{
+  "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/daily-email",
+      "schedule": "0 3 * * *"
+    },
+    {
+      "path": "/api/admin-report",
+      "schedule": "15 3 * * *"
+    }
+  ]
+}
